@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    background: linear-gradient(125deg, #f7c0ec 0%, #a9bfea 100%);
+}
+.master-container{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.inner-left-container{
+    flex-basis: 55%;
+    position: relative;
+}
+.inner-right-container{
+    flex-basis: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.inner-right-container .heading{
+    text-align: center;
+    position: relative;
+}
+.inner-right-container .heading h2{
+    font-family: cursive;
+}
+.inner-right-container .heading span{
+    position: absolute;
+    bottom: -25px;
+    right: -70px;
+    font-family: cursive;
+    font-size: 17px;
+    color: #2A2B2C;
+}
+.inner-right-container #difficulty-selector{
+    padding: 20px;
+    height: 0px;
+    opacity: 0;
+    backdrop-filter: blur(2px);
+    color: white;
+    overflow: hidden;
+    width: 60%;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    background: rgba(127, 0, 247, 0.418);
+    box-shadow: rgba(108, 135, 223, 0.863) 0px 2px 8px 0px;
+    animation: slide-left linear forwards 0.3s;
+    animation-delay: 3.5s;
+}
+.inner-right-container #difficulty-selector label{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.inner-right-container #difficulty-selector select{
+    background-color: transparent;
+    padding: 7px;
+    font-size: 16px;
+    width: 60%;
+    margin-bottom: 20px;
+    border: 1px solid rgb(230, 210, 255);
+
+}
+.inner-right-container #difficulty-selector button{
+    background-color: transparent;
+    border: 1px solid pink;
+    padding: 10px;
+    color:white;
+    width: 60%;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.inner-right-container #difficulty-selector button:hover{
+    background-color: blueviolet;
+    border-color: transparent;
+}
+@keyframes slide-left{
+    0%{
+        opacity: 0;
+        height: 0px;
+    }
+    100%{
+        opacity: 1;
+        height: 350px;
+    }
+}
+#quiz-container{
+    position: absolute;
+    display: none;
+    overflow: hidden;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(10px);
+    background: hsla(205, 46%, 10%, 1);
+    background: linear-gradient(125deg, rgb(14, 27, 37) 0%, hsla(191, 28%, 23%, 1) 50%, rgb(41, 72, 97) 100%);
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+#quiz-container .Q-section{
+    border-bottom: 2px solid rgb(136, 136, 136);
+    height: 180px;
+    padding: 20px;
+    padding-bottom: 0px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+}
+#quiz-container .Q-section #Q-counter{
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in;
+    margin-top: 40px;
+}
+#quiz-container .Q-section #question{
+    font-size: 20px;
+}
+#quiz-container #options{
+    width: 50%;
+    margin: 0px auto;
+    height: 50%;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.option{
+    background-color: white;
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.option:hover{
+    background-color: rgb(144, 182, 238);
+}
+#cross{
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#cross:hover{
+    color: red;
+}
+.correct {
+    background-color: green;
+    cursor: no-drop;
+}
+.correct:hover{
+    background-color: green !important;
+}
+
+.wrong {
+    background-color: red !important;
+}
+.wrong{
+    background-color: red;
+}
+.progress-bar {
+    height: 5px;
+    background-color: rgb(0, 191, 255);
+    width: 0%; /* Initially set to cover the full width */
+    transition: width 1s ease; /* Add a transition for smooth animation */
+    animation: progress linear infinite 2s;
+    display: none;
+}
+@keyframes progress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+#feedback{
+    background-color: red;
+    display: inline-block;
+    padding:10px;
+    border-radius: 4px;
+    color:white;
+    width: 200px;
+    position: absolute;
+    left: 43%;
+    transition: all 0.3s ease-in-out;
+    bottom:-40px;
+}
+.timer{
+    width: 80px;
+    height: 80px;
+    border: 2px solid greenyellow;
+    border-radius: 50%;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+    text-align: center;
+    font-size: 16px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.timer-red{
+    border-color: red;
+    animation: redBlinkingBorder linear infinite 1s;;
+}
+@keyframes redBlinkingBorder{
+    0%{
+        border-color: red;
+    }
+    50%{
+        border-color: rgb(121, 0, 0);
+    }
+    100%{
+        border-color: red;
+    }
+}
+.quiz-complete{
+    color: antiquewhite;
+    padding: 20px;
+    display: none;
+}
+.quiz-complete h1{
+    font-family: cursive;
+    font-size: 30px;
+    color: lightgreen;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.quiz-complete h4{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-family: cursive;
+}

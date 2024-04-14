@@ -1,0 +1,9 @@
+@media screen and (max-width: 414px){
+    .master-container{
+        flex-wrap: wrap;
+    }
+    .inner-left-container,
+    .inner-right-container{
+        width: 100%;
+    }
+}

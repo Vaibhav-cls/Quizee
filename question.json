@@ -1,0 +1,827 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": [
+            "London",
+            "Berlin",
+            "Paris",
+            "Madrid"
+        ],
+        "correctAnswer": "Paris",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'To Kill a Mockingbird'?",
+        "options": [
+            "Harper Lee",
+            "Mark Twain",
+            "Charles Dickens",
+            "Jane Austen"
+        ],
+        "correctAnswer": "Harper Lee",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "options": [
+            "CO2",
+            "NaCl",
+            "O2",
+            "H2O"
+        ],
+        "correctAnswer": "H2O",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+            "Jupiter",
+            "Mars",
+            "Venus",
+            "Mercury"
+        ],
+        "correctAnswer": "Mars",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who discovered penicillin?",
+        "options": [
+            "Alexander Fleming",
+            "Louis Pasteur",
+            "Marie Curie",
+            "Thomas Edison"
+        ],
+        "correctAnswer": "Alexander Fleming",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": [
+            "1905",
+            "1921",
+            "1912",
+            "1930"
+        ],
+        "correctAnswer": "1912",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the world's largest ocean?",
+        "options": [  
+            "Atlantic",
+            "Pacific",
+            "Indian",
+            "Arctic"
+        ],
+        "correctAnswer":  "Pacific",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "options": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Michelangelo"
+        ],
+        "correctAnswer": "Leonardo da Vinci",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the square root of 81?",
+        "options": [
+            "7",
+            "9",
+            "8",
+            "6"
+        ],
+        "correctAnswer": "9",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "options": [
+            "Tomato",
+            "Onion",
+            "Lemon",
+            "Avocado"
+        ],
+        "correctAnswer": "Avocado",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": [
+            "China",
+            "Japan",
+            "Korea",
+            "Thailand"
+        ],
+        "correctAnswer": "Japan",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who invented the telephone?",
+        "options": [
+            "Thomas Edison",
+            "Nikola Tesla",
+            "Alexander Graham Bell",
+            "Albert Einstein"
+        ],
+        "correctAnswer": "Alexander Graham Bell",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": [
+            "Mount Everest",
+            "K2",
+            "Kangchenjunga",
+            "Lhotse"
+        ],
+        "correctAnswer": "Mount Everest",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which bird is a symbol of peace?",
+        "options": [
+            "Dove",
+            "Eagle",
+            "Crow",
+            "Hawk"
+        ],
+        "correctAnswer": "Dove",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "options": [
+            "Jane Austen",
+            "Charles Dickens",
+            "William Shakespeare",
+            "Leo Tolstoy"
+        ],
+        "correctAnswer": "William Shakespeare",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the capital of Canada?",
+        "options": [
+            "Toronto",
+            "Ottawa",
+            "Vancouver",
+            "Montreal"
+        ],
+        "correctAnswer": "Ottawa",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which is the largest mammal?",
+        "options": [
+            "Blue Whale",
+            "Elephant",
+            "Giraffe",
+            "Hippopotamus"
+        ],
+        "correctAnswer": "Blue Whale",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Ag",
+            "Fe",
+            "Pb",
+            "Au"
+        ],
+        "correctAnswer": "Au",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who painted 'Starry Night'?",
+        "options": [
+            "Leonardo da Vinci",
+            "Pablo Picasso",
+            "Vincent van Gogh",
+            "Claude Monet"
+        ],
+        "correctAnswer": "Vincent van Gogh",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "options": [
+            "Euro",
+            "Dollar",
+            "Pound",
+            "Yen"
+        ],
+        "correctAnswer": "Yen",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who discovered America?",
+        "options": [
+            "Marco Polo",
+            "Vasco da Gama",
+            "Christopher Columbus",
+            "Amerigo Vespucci"
+        ],
+        "correctAnswer": "Christopher Columbus",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the square of 9?",
+        "options": [
+            "81",
+            "64",
+            "49",
+            "36"
+        ],
+        "correctAnswer": "81",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'Hamlet'?",
+        "options": [
+            "William Shakespeare",
+            "Jane Austen",
+            "Leo Tolstoy",
+            "Charles Dickens"
+        ],
+        "correctAnswer": "William Shakespeare",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for oxygen?",
+        "options": [
+            "O3",
+            "O2",
+            "H2O",
+            "O"
+        ],
+        "correctAnswer": "O",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which is the largest organ in the human body?",
+        "options": [
+            "Liver",
+            "Heart",
+            "Skin",
+            "Lung"
+        ],
+        "correctAnswer": "Skin",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the capital of Australia?",
+        "options": [
+            "Sydney",
+            "Canberra",
+            "Melbourne",
+            "Brisbane"
+        ],
+        "correctAnswer": "Canberra",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who developed the theory of relativity?",
+        "options": [
+            "Isaac Newton",
+            "Galileo Galilei",
+            "Albert Einstein",
+            "Stephen Hawking"
+        ],
+        "correctAnswer": "Albert Einstein",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which is the largest continent by land area?",
+        "options": [
+            "Africa",
+            "Asia",
+            "North America",
+            "South America"
+        ],
+        "correctAnswer": "Asia",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for silver?",
+        "options": [
+            "Ag",
+            "Au",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Ag",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who painted 'The Last Supper'?",
+        "options": [
+            "Vincent van Gogh",
+            "Pablo Picasso",
+            "Leonardo da Vinci",
+            "Michelangelo"
+        ],
+        "correctAnswer": "Leonardo da Vinci",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the capital of Brazil?",
+        "options": [
+            "Rio de Janeiro",
+            "Brasília",
+            "São Paulo",
+            "Salvador"
+        ],
+        "correctAnswer": "Brasília",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the largest desert in the world?",
+        "options": [
+            "Arabian",
+            "Gobi",
+            "Sahara",
+            "Antarctic"
+        ],
+        "correctAnswer": "Sahara",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who is known as the Father of Computers?",
+        "options": [
+            "Alan Turing",
+            "Steve Jobs",
+            "Bill Gates",
+            "Charles Babbage"
+        ],
+        "correctAnswer": "Charles Babbage",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which is the smallest planet in our solar system?",
+        "options": [
+            "Pluto",
+            "Venus",
+            "Mercury",
+            "Mars"
+        ],
+        "correctAnswer": "Mercury",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for carbon?",
+        "options": [
+            "C",
+            "Ca",
+            "Co",
+            "Cr"
+        ],
+        "correctAnswer": "C",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote '1984'?",
+        "options": [
+            "George Orwell",
+            "Aldous Huxley",
+            "Ray Bradbury",
+            "J.R.R. Tolkien"
+        ],
+        "correctAnswer": "George Orwell",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the currency of India?",
+        "options": [
+            "Rupee",
+            "Dollar",
+            "Euro",
+            "Yen"
+        ],
+        "correctAnswer": "Rupee",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who discovered the theory of evolution?",
+        "options": [
+            "Gregor Mendel",
+            "Louis Pasteur",
+            "Charles Darwin",
+            "Alfred Wallace"
+        ],
+        "correctAnswer": "Charles Darwin",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the largest island in the world?",
+        "options": [
+            "Australia",
+            "Borneo",
+            "Greenland",
+            "Madagascar"
+        ],
+        "correctAnswer": "Greenland",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for calcium?",
+        "options": [
+            "Cu",
+            "Co",
+            "Ca",
+            "C"
+        ],
+        "correctAnswer": "Ca",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'The Catcher in the Rye'?",
+        "options": [
+            "F. Scott Fitzgerald",
+            "J.D. Salinger",
+            "Ernest Hemingway",
+            "Mark Twain"
+        ],
+        "correctAnswer": "J.D. Salinger",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the capital of Russia?",
+        "options": [
+            "Saint Petersburg",
+            "Novosibirsk",
+            "Moscow",
+            "Yekaterinburg"
+        ],
+        "correctAnswer": "Moscow",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the largest species of shark?",
+        "options": [
+            "Whale Shark",
+            "Great White Shark",
+            "Hammerhead Shark",
+            "Tiger Shark"
+        ],
+        "correctAnswer": "Whale Shark",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for sodium?",
+        "options": [
+            "Ni",
+            "Nb",
+            "Na",
+            "Ne"
+        ],
+        "correctAnswer": "Na",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'The Old Man and the Sea'?",
+        "options": [
+            "F. Scott Fitzgerald",
+            "J.D. Salinger",
+            "Ernest Hemingway",
+            "Mark Twain"
+        ],
+        "correctAnswer": "Ernest Hemingway",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the currency of China?",
+        "options": [
+            "Yuan",
+            "Dollar",
+            "Euro",
+            "Pound"
+        ],
+        "correctAnswer": "Yuan",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who discovered gravity?",
+        "options": [
+            "Albert Einstein",
+            "Galileo Galilei",
+            "Isaac Newton",
+            "Stephen Hawking"
+        ],
+        "correctAnswer": "Isaac Newton",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the largest city in the world by population?",
+        "options": [
+            "Shanghai",
+            "Delhi",
+            "Tokyo",
+            "Mumbai"
+        ],
+        "correctAnswer": "Tokyo",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the chemical symbol for iron?",
+        "options": [
+            "Au",
+            "Ag",
+            "Fe",
+            "Cu"
+        ],
+        "correctAnswer": "Fe",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Who wrote 'Pride and Prejudice'?",
+        "options": [
+            "Charlotte Brontë",
+            "Emily Brontë",
+            "Agatha Christie",
+            "Jane Austen"
+        ],
+        "correctAnswer": "Jane Austen",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What is the capital of India?",
+        "options": [
+            "Mumbai",
+            "Kolkata",
+            "New Delhi",
+            "Chennai"
+        ],
+        "correctAnswer": "New Delhi",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which river is known as the 'Ganga' in India?",
+        "options": [
+            "Ganges",
+            "Yamuna",
+            "Brahmaputra",
+            "Godavari"
+        ],
+        "correctAnswer": "Ganges",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the national animal of India?",
+        "options": [
+            "Elephant",
+            "Lion",
+            "Tiger",
+            "Leopard"
+        ],
+        "correctAnswer": "Tiger",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the national flower of India?",
+        "options": [
+            "Lotus",
+            "Rose",
+            "Jasmine",
+            "Sunflower"
+        ],
+        "correctAnswer": "Lotus",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the official language of India?",
+        "options": [
+            "English",
+            "Bengali",
+            "Hindi",
+            "Tamil"
+        ],
+        "correctAnswer": "Hindi",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Who is known as the 'Father of the Indian Constitution'?",
+        "options": [
+            "Mahatma Gandhi",
+            "Jawaharlal Nehru",
+            "Dr. B.R. Ambedkar",
+            "Sardar Vallabhbhai Patel"
+        ],
+        "correctAnswer": "Dr. B.R. Ambedkar",
+        "difficulty": "medium"
+    },
+    {
+        "question": "Which city is famous for the 'Gateway of India' monument?",
+        "options": [
+            "Kolkata",
+            "Chennai",
+            "Mumbai",
+            "Delhi"
+        ],
+        "correctAnswer": "Mumbai",
+        "difficulty": "medium"
+    },
+    {
+        "question": "When did India gain independence from British rule?",
+        "options": [
+            "1950",
+            "1947",
+            "1945",
+            "1930"
+        ],
+        "correctAnswer": "1947",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who was the first Prime Minister of India?",
+        "options": [
+            "Jawaharlal Nehru",
+            "Indira Gandhi",
+            "Lal Bahadur Shastri",
+            "Rajiv Gandhi"
+        ],
+        "correctAnswer": "Jawaharlal Nehru",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Land of Five Rivers'?",
+        "options": [
+            "Haryana",
+            "Punjab",
+            "Uttar Pradesh",
+            "Madhya Pradesh"
+        ],
+        "correctAnswer": "Punjab",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who composed the Indian National Anthem, 'Jana Gana Mana'?",
+        "options": [
+            "Mahatma Gandhi",
+            "Subhas Chandra Bose",
+            "Rabindranath Tagore",
+            "Jawaharlal Nehru"
+        ],
+        "correctAnswer": "Rabindranath Tagore",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian city is known as the 'City of Joy'?",
+        "options": [
+            "Kolkata",
+            "Mumbai",
+            "Chennai",
+            "Delhi"
+        ],
+        "correctAnswer": "Kolkata",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Spice Garden of India'?",
+        "options": [
+            "Karnataka",
+            "Andhra Pradesh",
+            "Kerala",
+            "Tamil Nadu"
+        ],
+        "correctAnswer": "Kerala",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state has the highest literacy rate?",
+        "options": [
+            "Goa",
+            "Kerala",
+            "Maharashtra",
+            "Himachal Pradesh"
+        ],
+        "correctAnswer": "Kerala",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who was the first woman Prime Minister of India?",
+        "options": [
+            "Sonia Gandhi",
+            "Pratibha Patil",
+            "Sushma Swaraj",
+            "Indira Gandhi"
+        ],
+        "correctAnswer": "Indira Gandhi",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian city is home to the Indian Institute of Science (IISc)?",
+        "options": [
+            "Bengaluru",
+            "Chennai",
+            "Mumbai",
+            "Hyderabad"
+        ],
+        "correctAnswer": "Hyderabad",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Land of the Rising Sun'?",
+        "options": [
+            "Arunachal Pradesh",
+            "Assam",
+            "Manipur",
+            "Nagaland"
+        ],
+        "correctAnswer": "Arunachal Pradesh",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is famous for its backwaters?",
+        "options": [
+            "Goa",
+            "Karnataka",
+            "Tamil Nadu",
+            "Kerala"
+        ],
+        "correctAnswer": "Kerala",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the national tree of India?",
+        "options": [
+            "Banyan",
+            "Peepal",
+            "Neem",
+            "Mango"
+        ],
+        "correctAnswer": "Banyan",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Land of Festivals'?",
+        "options": [
+            "Uttar Pradesh",
+            "Madhya Pradesh",
+            "Rajasthan",
+            "Punjab"
+        ],
+        "correctAnswer": "Uttar Pradesh",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who was the first President of India?",
+        "options": [
+            "Dr. S. Radhakrishnan",
+            "Jawaharlal Nehru",
+            "Dr. Rajendra Prasad",
+            "Lal Bahadur Shastri"
+        ],
+        "correctAnswer": "Dr. Rajendra Prasad",
+        "difficulty": "hard"
+    },
+    {
+        "question": "What is the national bird of India?",
+        "options": [
+            "Sparrow",
+            "Parrot",
+            "Eagle",
+            "Peacock"
+        ],
+        "correctAnswer": "Peacock",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Land of Forests'?",
+        "options": [
+            "Assam",
+            "Odisha",
+            "Madhya Pradesh",
+            "Uttarakhand"
+        ],
+        "correctAnswer": "Madhya Pradesh",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Who is known as the 'Father of the Indian Nation'?",
+        "options": [
+            "Jawaharlal Nehru",
+            "Sardar Vallabhbhai Patel",
+            "Mahatma Gandhi",
+            "Subhas Chandra Bose"
+        ],
+        "correctAnswer": "Mahatma Gandhi",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which Indian state is known as the 'Land of Five Elements'?",
+        "options": [
+            "Gujarat",
+            "Tamil Nadu",
+            "Karnataka",
+            "Maharashtra"
+        ],
+        "correctAnswer": "Karnataka",
+        "difficulty": "hard"
+    }
+]

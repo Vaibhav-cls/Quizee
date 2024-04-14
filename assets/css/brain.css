@@ -1,0 +1,20 @@
+.inner-left-container .brain{
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: breathe linear infinite 10s;
+}
+
+@keyframes breathe{
+    0%{
+        width: 450px;
+    }
+    50%{
+        width: 400px;
+    }
+    100%{
+        width: 450px;
+    }
+}

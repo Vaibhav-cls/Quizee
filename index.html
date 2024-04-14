@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/cloud.css" />
+    <link rel="stylesheet" href="assets/css/brain.css" />
+    <link rel="stylesheet" href="assets/css/info-clouds.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Interactive Quiz App</title>
+  </head>
+  <body>
+    <div class="cloud-container">
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-1" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-2" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-3" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-4" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-5" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-6" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-7" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-8" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-9" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-10" />
+      <img src="assets/images/bg-cloud.png" alt="" class="cloud-11" />
+    </div>
+    <div class="master-container">
+      <div class="inner-left-container">
+        <div class="info-clouds ic-1">
+          <img src="assets/images/question-cloud.png" />
+          <p class="text-inside-cloud">
+            Do you know who was the first person to step on the moon
+          </p>
+        </div>
+        <div class="info-clouds ic-2">
+          <img src="assets/images/question-cloud.png" />
+          <p class="text-inside-cloud">
+            Do you know which is the tallest building in the world?
+          </p>
+        </div>
+        <div class="info-clouds ic-3">
+          <img src="assets/images/question-cloud.png" />
+          <p class="text-inside-cloud">
+            Do you know who is known as the "Father of the computer"?
+          </p>
+        </div>
+        <div class="info-clouds ic-4">
+          <img src="assets/images/question-cloud.png" />
+          <p class="text-inside-cloud">
+            Do you know which is the longest river in the world?
+          </p>
+        </div>
+        <img src="assets/images/brain.png" alt="" class="brain" />
+      </div>
+      <div class="inner-right-container">
+        <div class="heading">
+          <h2>Test Your Knowledge<span>With Quizee</span></h2>
+        </div>
+        <div id="difficulty-selector">
+          <label for="difficulty">Select Difficulty Level</label>
+          <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+          <button id="start-btn">Start Quiz</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="quiz-container">
+      <!-- <h1>Quiz Title</h1> -->
+      <span id="cross"><i class="fa-solid fa-xmark"></i></span>
+      <div class="Q-section">
+        <p id="Q-counter"></p>
+        <div id="question"></div>
+      </div>
+      <div class="progress-bar"></div>
+      <div id="options"></div>
+      <div id="feedback">Time's Up</div>
+      <div class="quiz-complete">
+        <h1>Quiz Complete</h1>
+        <h4 id="score"></h4>
+        <h4>Total Questions: 25</h4>
+        <h4 id="attempted"></h4>
+        <h4 id="correct"></h4>
+        <h4 id="incorrect"></h4>
+        <h4 id="percentage"></h4>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
