@@ -1,9 +1,14 @@
+.temp{
+    display: none;
+}
 @media screen and (max-width: 414px){
-    .master-container{
-        flex-wrap: wrap;
+    .cloud-container,
+    .master-container,
+    .quiz-container{
+        display: none;
     }
-    .inner-left-container,
-    .inner-right-container{
-        width: 100%;
+    .temp{
+        display: block;
+        text-align: center;
     }
 }
